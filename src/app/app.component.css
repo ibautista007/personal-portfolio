@@ -1,0 +1,15 @@
+.footer > .foot 
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 3rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+
+
+

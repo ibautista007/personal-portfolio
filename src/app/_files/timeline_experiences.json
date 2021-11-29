@@ -1,0 +1,90 @@
+[
+  {
+    "initYear": 2020,
+    "initMonth": 1,
+    "compYear": 2020,
+    "compMonth": 12,
+    "position": "Information & Communication Technologies",
+    "company": "Douglas College",
+    "type": "Post Degree Diploma",
+    "label": "Education",
+    "country": "Canada"
+  },
+  {
+    "initYear": 2021,
+    "initMonth": 4,
+    "compYear": 2021,
+    "compMonth": 7,
+    "position": "ASP .Net Developer",
+    "company": "Campus Support",
+    "type": "Full Time",
+    "label": "Work",
+    "country": "Canada"
+  },
+  {
+    "initYear": 2014,
+    "initMonth": 3,
+    "compYear": 2016,
+    "compMonth": 11,
+    "position": "Computer Networking",
+    "company": "Universidad Francisco Gavidia",
+    "label": "Education",
+    "type": "Master's Degree",
+    "country": "El Salvador"
+  },
+  {
+    "initYear": 2020,
+    "initMonth": 6,
+    "compYear": 2020,
+    "compMonth": 8,
+    "position": "Web Developer",
+    "company": "Safi Foods",
+    "label": "Work",
+    "type": "Volunteer",
+    "country": "Canada"
+  },
+  {
+    "initYear": 2006,
+    "initMonth": 1,
+    "compYear": 2012,
+    "compMonth": 3,
+    "position": "Computer Networking",
+    "company": "Universidad Francisco Gavidia",
+    "label": "Education",
+    "type": "Bachelor's degree",
+    "country": "El Salvador"
+  },
+  {
+    "initYear": 2017,
+    "initMonth": 6,
+    "compYear": 2018,
+    "compMonth": 1,
+    "position": "Full Stack Developer",
+    "company": "Vilanova y Asociados",
+    "label": "Work",
+    "type": "Full Time",
+    "country": "El Salvador"
+  },
+  {
+    "initYear": 2014,
+    "initMonth": 10,
+    "compYear": 2016,
+    "compMonth": 2,
+    "position": "Customer Services",
+    "company": "Crowley",
+    "label": "Work",
+    "type": "Full Time",
+    "country": "El Salvador"
+  },
+  {
+    "initYear": 2018,
+    "initMonth": 11,
+    "compYear": 2019,
+    "compMonth": 8,
+    "position": "Intake Assistant",
+    "company": "TRIO Educational Opportunity Center",
+    "label": "Work",
+    "type": "Part time (student permit)",
+    "country": "USA"
+  }
+]

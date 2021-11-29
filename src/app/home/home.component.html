@@ -1,0 +1,117 @@
+<div class="wrapper">
+
+    <div class="banner">
+
+      <div class="intro">
+        
+        <h1 class="block-effect" style="--td: 1s">
+          <div class="block-reveal" style="--bc: #ffffff; --d: .1s">Hi, I'm Isaias Bautista</div>
+          <div class="fade-in">
+            I am a junior full stack developer, and I prefer to work  in .Net technology using C #, CSS, JavaScript, Jquery and more.
+          </div>
+          <div class="fade-in">
+            My last work experience is as ASP Net Developer at Campus Support.
+            Do you want to have details of my tasks? click on the button.
+          </div>
+        </h1>
+        
+        <div class="info">
+          <a routerLink="about" class="menu__link r-link text-underlined">READ MORE          
+<!--             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 8V12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 16H12.01" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> -->
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="pic">
+
+        hola
+
+      </div>
+        
+
+
+
+          
+    </div>
+
+   
+
+    <div class="calendar">
+      <div class="encabezado">
+          <div class="workExperience">
+            <div class="title"> Work Experience</div>
+          
+        </div>
+        <div class="years">
+            
+        </div>
+        <div class="education"> 
+            <div class="title">Education</div>
+        </div>    
+      </div>
+      <div class="contenido" style="display: flex;">
+
+    
+        <div class="trabajo" style="position: relative; display: flex; flex-direction: column; width: 15rem;">
+          <div *ngFor="let work of workExperience"  class="tooltip" [style.top.rem]="work.topPostion" [style.height.rem]="work.height" [style.background-color]="work.color" >
+              <div class="position">{{ work.position }}</div>
+              <div class="company">{{ work.company }}</div>
+              
+              <span class="tooltiptext">Period: <br> {{ work.initPeriod }} - {{ work.completePeriod }} </span>
+          </div>
+
+<!--             <div class="tooltip title" style="background-color: gray; top: 1rem;">
+              ASP. Net Developer <br>
+              Company: Campus Support
+
+              <span class="tooltiptext">                
+                April/2021 - July/2021
+              </span>
+            </div>
+            <div class="tooltip title" style="background-color: gray; top:5rem;">
+              ASP. Net Developer <br>
+              Company: Campus Support
+
+              <span class="tooltiptext">                
+                April/2021 - July/2021
+              </span>
+            </div> -->
+
+        </div>
+        <div class="tiempo">
+
+          <div *ngFor="let time of TIME">
+            <div class="rango">
+              <div></div>
+            </div>
+            <div class="year">{{ time.Year }}</div>
+          </div>
+
+          <div class="rango"> 
+            <div></div>
+          </div>
+
+
+        </div>
+        <div class="educacion" style="position: relative; display: flex; flex-direction: column; width: 15rem;">
+          <div *ngFor="let edu of education"  class="tooltip" [style.top.rem]="edu.topPostion" [style.height.rem]="edu.height" [style.background-color]="edu.color" >
+            <div class="position">{{ edu.position }}</div>
+            <div class="company">{{ edu.company }}</div>
+            
+            <span class="tooltiptext">Period: <br> {{ edu.initPeriod }} - {{ edu.completePeriod }} </span>
+          </div>
+        </div>
+      </div>
+    
+    </div>    
+
+
+</div>
+
+
