@@ -86,5 +86,16 @@
     "label": "Work",
     "type": "Part time (student permit)",
     "country": "USA"
+  },
+  {
+    "initYear": 2012,
+    "initMonth": 11,
+    "compYear": 2014,
+    "compMonth": 8,
+    "position": "Supervisor of Communications and IT",
+    "company": "Asociación de Distribuidores de El Salvador (ADES)",
+    "label": "Work",
+    "type": "Full Time",
+    "country": "El Salvador"
   }
 ]

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 
@@ -14,11 +14,11 @@
 
 
 .banner{
-    background-color: #556A89;
+    background-color: #1a2833;;
     width: 100%;   
     height: 400px;
     margin-top: 10px; 
-    border: 2px solid #556A89;
+    border: 2px solid #1a2833;
     border-radius: 63px;
     text-align: center;
     align-items: center;
@@ -59,11 +59,12 @@
 
 .title{
     text-transform: uppercase;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     border-radius: 10px;
-    border: 2px solid;
-    color: royalblue;
-    background-color: white;
+    border: 2px solid #1a2833;
+    color: #d59e29;
+    background-color: #1a2833;
     padding: 10px;    
 }
 
@@ -97,8 +98,11 @@
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 12rem;
-    background-color: black;
-    color: #fff;
+    background-color: #bf9002;
+    color: #182430;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
@@ -125,7 +129,7 @@
 
   .rango > div:after { content: '';
     position: absolute;
-    border-right: 2px black solid;
+    border-right: 0.2rem #556A89 solid;
     height: 100%;
     width: 100%;
     transform: translateX(-50%);
@@ -165,10 +169,13 @@ margin-top: 2rem;
 }
 
 .info > a{ 
-  background-color: white;
+  background-color: transparent;
   padding: 10px;
+  border: 2px solid white;
   border-radius: 19px;
-  font-family: 'Poller One', cursive;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: Copperplate, Papyrus, fantasy; */
+
   display:inline-block;/* or block */
 	position:relative;
   width: 120%;
@@ -178,7 +185,8 @@ margin-top: 2rem;
 
 
 .info > a:before{ 
-	content: url(data:image/svg+xml,%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%2022C17.5228%2022%2022%2017.5228%2022%2012C22%206.47715%2017.5228%202%2012%202C6.47715%202%202%206.47715%202%2012C2%2017.5228%206.47715%2022%2012%2022Z%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%208V12%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%2016H12.01%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E);  
+	/*content: url(data:image/svg+xml,%20%20%20%20%20%20%20%20%20%20%20%20%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%2022C17.5228%2022%2022%2017.5228%2022%2012C22%206.47715%2017.5228%202%2012%202C6.47715%202%202%206.47715%202%2012C2%2017.5228%206.47715%2022%2012%2022Z%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%208V12%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M12%2016H12.01%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fsvg%3E);  */
+  content: url(data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M12%2022C17.5228%2022%2022%2017.5228%2022%2012C22%206.47715%2017.5228%202%2012%202C6.47715%202%202%206.47715%202%2012C2%2017.5228%206.47715%2022%2012%2022Z%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3Cpath%20d%3D%22M12%208V12%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3Cpath%20d%3D%22M12%2016H12.01%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E);  
 	font-size:.9em;
 	position:absolute;
   top:20%;
@@ -191,7 +199,7 @@ margin-top: 2rem;
 }
 
 .info > a:link, .info > a:visited, .info > a:active{
-  color: black;
+  color: white;
   text-decoration: none;
   padding-right: 10px;
 }
@@ -303,7 +311,8 @@ margin-top: 2rem;
 .fade-in{color: white; font-weight: 400;}
 
 .intro > h1 > div:first-child {
-  font-family: 'Estonia', cursive; 
+  /* font-family: 'Estonia', cursive;  */
+  font-family: 'Times New Roman', Times, serif;
   font-size: 2rem;  
   flex-basis: 40%;
 }
@@ -315,3 +324,25 @@ margin-top: 2rem;
 
 .intro {flex-basis: 60%;}
 .pic {flex-basis: 40%;}
+
+
+/*Animation*/
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+canvas {
+	background-image: radial-gradient(#666, #333);
+}
+
+#instructions {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}

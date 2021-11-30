@@ -108,7 +108,7 @@ export class HomeComponent implements OnInit {
       }
 
       let cLabel = this.setBackground();
-      console.log(new Date(d1).toLocaleString('default', { month: 'long' }));
+ //     console.log(new Date(d1).toLocaleString('default', { month: 'long' }));
       let p1 = "" + new Date(d1).toLocaleString('default', { month: 'long' }) +" "+ new Date(d1).getFullYear();
       let p2 = "" + new Date(d2).toLocaleString('default', { month: 'long' }) +" "+ new Date(d2).getFullYear();
       if(currentValue.label == 'Work'){
@@ -121,14 +121,14 @@ export class HomeComponent implements OnInit {
       }    
 
       
-      console.log(this.workExperience);
-      console.log(this.education);
+      // console.log(this.workExperience);
+      // console.log(this.education);
 
 
     })
   
 
-    console.log(LTimeline);
+ //   console.log(LTimeline);
 
    }
 
