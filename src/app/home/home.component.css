@@ -116,7 +116,6 @@
     visibility: visible;
   }
 
-
   /**/
   .rango{
     height: 8rem;
@@ -325,3 +324,12 @@ margin-top: 2rem;
 .intro {flex-basis: 60%;}
 .pic {flex-basis: 40%;}
 
+
+/*
+=====
+MOBILE VERSION
+=====
+*/
+@media screen and (max-width: 800px){
+  .banner{flex-direction: column-reverse;}
+}
